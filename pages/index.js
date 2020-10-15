@@ -11,9 +11,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Web ROFO" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Right Of First Offer 
+          {/* Randomly change words based on wth different word combinations */}
+        </p>
+        <p className="description">
+          <strong>Comming soon...</strong>
         </p>
       </main>
 
