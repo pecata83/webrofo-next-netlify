@@ -6,19 +6,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Welcome to Web RoFo!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Web ROFO" />
-        <p className="description">
-          Right Of First Offer 
-          {/* Randomly change words based on wth different word combinations */}
-        </p>
-        <p className="description">
-          <strong>Comming soon...</strong>
-        </p>
+        <Header title="Web RoFo" />
       </main>
 
       <Footer />
