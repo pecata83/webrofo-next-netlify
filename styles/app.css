@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap");
+
+body {
+  min-height: 100vh;
+  background-color: #aaaaaa;
+  /* font-family: "Castoro", serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo Black", sans-serif;
+}
+
+main {
+  padding: 0 0.25rem;
+}
+
+strong {
+  font-weight: bold;
+}

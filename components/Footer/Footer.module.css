@@ -1,0 +1,20 @@
+.footer {
+  display: block;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.footer_container {
+  display: flex;
+  width: 100%;
+  transform: rotate(-90deg);
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.footer_container p {
+  white-space: nowrap;
+}
