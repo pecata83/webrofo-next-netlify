@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: row-reverse;
   margin-right: 1rem;
-  /* margin-left: -0.5rem; */
+  /* margin-left: 0rem; */
 }
 
 .footer_icons li {
@@ -31,7 +31,7 @@
 }
 
 .footer_icons li svg {
-  font-size: 1.4rem;
+  font-size: 1.1333rem;
   transform: rotate(90deg);
   padding: 0rem 0rem 0rem 0rem;
   margin: 0rem 0rem 0rem 0rem;
