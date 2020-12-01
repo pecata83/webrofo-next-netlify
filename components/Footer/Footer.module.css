@@ -12,9 +12,27 @@
   width: 100%;
   transform: rotate(-90deg);
   /* justify-content: center; */
-  /* align-items: center; */
+  align-items: center;
 }
 
 .footer_container p {
   white-space: nowrap;
+}
+
+.footer_icons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 1rem;
+  /* margin-left: -0.5rem; */
+}
+
+.footer_icons li {
+  padding: 0.5rem;
+}
+
+.footer_icons li svg {
+  font-size: 1.4rem;
+  transform: rotate(90deg);
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
