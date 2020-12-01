@@ -6734,6 +6734,11 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-cursor-follow@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-cursor-follow/-/react-cursor-follow-2.0.0.tgz#bc2aff20e25195b4e050aabb0b9147d96f1494ca"
+  integrity sha512-1Mr00yR46KFiQsoU9oKRZ6j6N3ZhK2Lk+1yrZ1qJypEQI+CKFJpHKlowTIe9RAXuWndz90Zag0Ry5Y1vekVMng==
+
 react-dom@17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
