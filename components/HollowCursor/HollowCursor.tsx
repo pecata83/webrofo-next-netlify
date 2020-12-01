@@ -9,9 +9,9 @@ const Header: React.FC<Props> = ({}) => {
     <Cursor
       hollow
       color={"#000"}
-      duration={0.333}
+      duration={0.666}
       size={35}
-      easing={"cubic-bezier(.3,.17,.73,.35)"}
+      easing={"cubic-bezier(.25,.25,.42,1)"}
     />
   );
 };
