@@ -9,7 +9,7 @@ const HollowCursor: React.FC<Props> = ({}) => {
     <Cursor
       hollow
       color={"#000"}
-      duration={0.666}
+      duration={0.333}
       size={35}
       easing={"cubic-bezier(.25,.25,.42,1)"}
     />

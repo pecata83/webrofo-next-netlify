@@ -1,0 +1,23 @@
+.heading_container {
+  padding: 4rem 0 1rem 0;
+}
+
+.heading {
+  font-size: 5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.heading_number_container {
+  padding: 4rem 0 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.heading_number {
+  padding: 1.5rem 3rem;
+  color: #ef3e16;
+  font-size: 3rem;
+  font-style: italic;
+}

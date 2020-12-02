@@ -10,7 +10,7 @@ type Props = {
 };
 
 const Col: React.FC<Props> = ({ grow, style, size, children, padding }) => {
-  const _style = {
+  let _style = {
     ...style,
     width: size,
     padding: padding,
