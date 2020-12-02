@@ -1,11 +1,52 @@
 .nav {
   position: fixed;
-  left: 0;
-  top: 0;
+  top: 2rem;
+  left: 2rem;
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  padding: 2rem 0;
-  height: 100%;
-  width: 4rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  /* height: 4rem; */
+}
+
+.logo {
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  padding: 0rem;
+}
+
+.logo > a {
+  font-family: "Archivo Black", sans-serif;
+  color: #000;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.hamburger_menu {
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
+
+.hamburger_menu:hover > span {
+  background-color: #b71c1c !important;
+}
+
+.hamburger_menu > span:first-child {
+  width: 80% !important;
+  margin-left: 20% !important;
+}
+
+.hamburger_menu > span:last-child {
+  width: 80% !important;
+}
+
+.hamburger_menu_open > span:first-child {
+  width: 100% !important;
+  margin-left: 0% !important;
+}
+
+.hamburger_menu_open > span:last-child {
+  width: 100% !important;
 }

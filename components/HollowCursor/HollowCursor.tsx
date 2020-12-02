@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Cursor from "react-cursor-follow";
-import styles from "./HollowCursor.module.css";
+// import styles from "./HollowCursor.module.css";
 
 type Props = {};
 
-const Header: React.FC<Props> = ({}) => {
+const HollowCursor: React.FC<Props> = ({}) => {
   return (
     <Cursor
       hollow
@@ -16,4 +16,4 @@ const Header: React.FC<Props> = ({}) => {
   );
 };
 
-export default Header;
+export default HollowCursor;

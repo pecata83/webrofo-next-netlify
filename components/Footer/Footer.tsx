@@ -22,7 +22,7 @@ const Footer: React.FC<Props> = ({ title }) => (
           <FiInstagram />
         </li>
       </ul>
-      <p>Copyright 2020</p>
+      <p>© 2020 WEB ROFO</p>
     </div>
   </footer>
 );

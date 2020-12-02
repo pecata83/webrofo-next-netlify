@@ -1,19 +1,40 @@
+import { useState } from "react";
 import Link from "next/link";
 import styles from "./Nav.module.css";
+import HamburgerMenu from "react-hamburger-menu";
+import classNames from "classnames";
 
 type Props = {
-  title: string;
+  title?: string;
 };
 
-const Header: React.FC<Props> = ({ title }) => (
-  <header className={styles.nav}>
-    <p>X</p>
-    {/* <h1 className={styles.logo}>
-      <Link href="/">
-        <a>{title}</a>
-      </Link>
-    </h1> */}
-  </header>
-);
+const Nav: React.FC<Props> = ({}) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-export default Header;
+  return (
+    <nav className={styles.nav}>
+      <HamburgerMenu
+        className={classNames(
+          styles.hamburger_menu,
+          isOpen && styles.hamburger_menu_open
+        )}
+        isOpen={isOpen}
+        menuClicked={(e) => setIsOpen(!isOpen)}
+        width={18}
+        height={18}
+        strokeWidth={3}
+        rotate={0}
+        color="black"
+        borderRadius={15}
+        animationDuration={0.5}
+      />
+      <p className={styles.logo}>
+        <Link href="/">
+          <a>ROFO</a>
+        </Link>
+      </p>
+    </nav>
+  );
+};
+
+export default Nav;

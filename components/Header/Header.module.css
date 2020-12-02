@@ -1,51 +1,24 @@
 .header {
-  position: fixed;
-  top: 2rem;
-  left: 2rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-  /* height: 4rem; */
-}
-
-.logo {
-  font-size: 1.35rem;
-  font-weight: bold;
+  padding: 2rem 0;
   margin: 0;
-  white-space: nowrap;
-  padding: 0rem;
+  position: relative;
+  z-index: 1000;
+  display: flex;
 }
 
-.logo > a {
-  font-family: "Archivo Black", sans-serif;
-  color: #000;
-  text-decoration: none;
+.header_nav {
+  display: flex;
 }
 
-.hamburger_menu {
-  margin-right: 1rem;
-  cursor: pointer;
+.header_nav_left {
+  display: flex;
 }
 
-.hamburger_menu:hover > span {
-  background-color: #b71c1c !important;
+.header_nav_right {
+  display: flex;
+  margin-left: auto;
 }
 
-.hamburger_menu > span:first-child {
-  width: 80% !important;
-  margin-left: 20% !important;
-}
-
-.hamburger_menu > span:last-child {
-  width: 80% !important;
-}
-
-.hamburger_menu_open > span:first-child {
-  width: 100% !important;
-  margin-left: 0% !important;
-}
-
-.hamburger_menu_open > span:last-child {
-  width: 100% !important;
+.header_nav_right p {
+  padding-left: 1rem;
 }

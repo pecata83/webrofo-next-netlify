@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Nav from "@components/Nav";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import TvNoise from "@components/TvNoise";
@@ -16,6 +17,7 @@ const IndexPage: React.FC<Props> = ({ title = "wEB rOFO", children }) => (
     </Head>
     <HollowCursor />
     <TvNoise />
+    <Nav />
     <Header />
     <main>{children}</main>
     <Footer />

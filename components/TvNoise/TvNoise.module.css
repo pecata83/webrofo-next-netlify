@@ -28,6 +28,32 @@
   z-index: 10;
 }
 
+.columns {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.column {
+  width: 4rem;
+  border-left: 1px #00000038 solid;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.last_column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4rem;
+  border-left: 1px #00000038 solid;
+  height: 100%;
+}
+
 /* .noise_wrapper:after {
   content: "";
   position: absolute;
