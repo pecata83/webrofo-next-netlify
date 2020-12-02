@@ -14,6 +14,7 @@ const Col: React.FC<Props> = ({ grow, style, size, children, padding }) => {
     ...style,
     width: size,
     padding: padding,
+    flex: null,
   };
 
   if (grow) _style.flex = 1;
