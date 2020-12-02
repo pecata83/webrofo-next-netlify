@@ -1,5 +1,5 @@
 .heading_container {
-  padding: 4rem 0 1rem 0;
+  padding: 6rem 0 1rem 0;
 }
 
 .heading {
@@ -9,7 +9,7 @@
 }
 
 .heading_number_container {
-  padding: 4rem 0 1rem 0;
+  padding: 6rem 0 1rem 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -20,4 +20,24 @@
   color: #ef3e16;
   font-size: 3rem;
   font-style: italic;
+}
+
+.heading_intro {
+  padding: 3rem 0;
+}
+
+.heading_intro_text {
+  padding-top: 6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.heading_intro_text span {
+  color: #ef3e16;
+}
+
+.circle_text {
+  color: #ef3e16;
+  text-align: center;
+  padding-top: 4rem;
 }
