@@ -8,6 +8,9 @@ const initialState = {
     selectedAuthorId: null,
     selectedAuthor: null,
   },
+  navigation: {
+    isOpen: false,
+  },
 };
 
 export default initialState;

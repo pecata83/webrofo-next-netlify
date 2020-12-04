@@ -1,6 +1,54 @@
 .nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10000;
+}
+
+.nav_background {
   position: fixed;
-  z-index: 2000;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.nav_background_cover {
+  position: fixed;
+  z-index: 1010;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(159 159 159 / 15%);
+  /* opacity: 0; */
+}
+
+.nav_menu {
+  position: fixed;
+  z-index: 10100;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  /* align-items: center; */
+  padding-left: 10rem;
+}
+
+.nav_menu p {
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.logo_container {
+  position: fixed;
+  z-index: 11000;
   top: 2rem;
   left: 2rem;
   display: flex;

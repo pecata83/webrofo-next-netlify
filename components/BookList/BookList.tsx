@@ -11,6 +11,7 @@ const BookList: React.FC<Props> = () => {
   const searchResultStart = useSelector((state) => {
     return state.search.searchResultStart;
   });
+
   const searchResultEnd = useSelector((state) => {
     return state.search.searchResultEnd;
   });

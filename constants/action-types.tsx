@@ -9,3 +9,6 @@ export const SEARCH_AUTHOR_STARTED = "search/authorStarted";
 export const AUTHOR_DATA_LOADED = "search/authorDataLoaded";
 export const SEARCH_AUTHOR_BOOKS_STARTED = "search/authorBooksStarted";
 export const SEARCH_AUTHOR_BOOKS_LOADED = "search/authorBooksLoaded";
+
+export const NAVIGATION_OPEN = "navigation/open";
+export const NAVIGATION_CLOSE = "navigation/close";

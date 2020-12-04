@@ -7,8 +7,6 @@ type Props = {
 };
 
 const Header: React.FC<Props> = ({}) => {
-  const [menu, setMenu] = useState(false);
-
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.noise_wrapper}>

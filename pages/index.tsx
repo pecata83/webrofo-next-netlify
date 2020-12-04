@@ -1,6 +1,6 @@
 import Layout, { Container, Col } from "@components/Layout";
 import styles from "./index.module.css";
-import { Controls, PlayState, Tween } from "react-gsap";
+import { Tween } from "react-gsap";
 
 export default function Home() {
   return (

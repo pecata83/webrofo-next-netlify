@@ -10,7 +10,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-const IndexPage: React.FC<Props> = ({ title = "wEB rOFO", children }) => (
+const IndexPage: React.FC<Props> = ({ title = "wEb rOFo", children }) => (
   <>
     <Head>
       <title>{title}</title>

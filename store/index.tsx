@@ -4,6 +4,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import { searchTextMiddleware } from "./search/middleware";
 import thunk from "redux-thunk";
 import searchReducer from "./search/reducers";
+import navigationReducer from "./navigation/reducers";
 import initialState from "./initialState";
 
 let store;
@@ -12,6 +13,7 @@ function initStore(preloadedState: {} = initialState) {
   return createStore(
     combineReducers({
       search: searchReducer,
+      navigation: navigationReducer,
     }),
     preloadedState,
     composeWithDevTools(applyMiddleware(searchTextMiddleware, thunk))
